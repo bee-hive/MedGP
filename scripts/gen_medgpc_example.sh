@@ -1,0 +1,14 @@
+python -m medgpc.util.run_exp_generator \
+--path-config=path_della.json \
+--hpc-config=slurm_della.json \
+--feature-config=feature_all.json \
+--cohort=heart_failure \
+--cv-fold-num=10 \
+--cv-seed=718 \
+--exp-prefix=heart_failure_release \
+--kernel=LMC-SM \
+--prior=hier-gamma \
+--Q=5 --R=8 --eta=0.01 --beta-lam=0.01 \
+--kernel-cluster-alg=gmm \
+--opt-config=opt_prior2.json \
+--flag-plot-kernel-cluster=2

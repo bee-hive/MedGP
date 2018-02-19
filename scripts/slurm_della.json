@@ -1,0 +1,138 @@
+{
+    "train_template": "/home/lifangc/workspace/release/MedGP/scripts/train_della.sh",
+    "test_template": "/home/lifangc/workspace/release/MedGP/scripts/test_della.sh",
+    "kernclust_template": "/home/lifangc/workspace/release/MedGP/scripts/kernclust_della.sh",
+    "eval_template": "/home/lifangc/workspace/release/MedGP/scripts/kernclust_della.sh",
+    "train_config": [
+        {
+            "script_name": "train_short.sh",
+            "type": "slurm",
+            "mem": "5000",
+            "runtime": "12:00:00",
+            "thread": 1,
+            "host_name": "della",
+            "host_thread_limit": 20,
+            "min_mat_size": 1,
+            "max_mat_size": 500
+        },
+        {
+            "script_name": "train_medium.sh",
+            "type": "slurm",
+            "mem": "10000",
+            "runtime": "2-00:00:00",
+            "thread": 5,
+            "host_name": "della",
+            "host_thread_limit": 20,
+            "min_mat_size": 500,
+            "max_mat_size": 2000
+        },
+        {
+            "script_name": "train_long.sh",
+            "type": "slurm",
+            "mem": "25000",
+            "runtime": "4-00:00:00",
+            "thread": 10,
+            "host_name": "della",
+            "host_thread_limit": 20,
+            "min_mat_size": 2000,
+            "max_mat_size": 4000
+        },
+        {
+            "script_name": "train_vlong.sh",
+            "type": "slurm",
+            "mem": "50000",
+            "runtime": "6-00:00:00",
+            "thread": 15,
+            "host_name": "della",
+            "host_thread_limit": 20,
+            "min_mat_size": 4000,
+            "max_mat_size": 10000
+        },
+        {
+            "script_name": "train_vvlong.sh",
+            "type": "slurm",
+            "mem": "100000",
+            "runtime": "6-00:00:00",
+            "thread": 20,
+            "host_name": "della",
+            "host_thread_limit": 20,
+            "min_mat_size": 10000,
+            "max_mat_size": 100000
+        }
+    ],
+    "test_config": [
+        {
+            "script_name": "test_short.sh",
+            "type": "slurm",
+            "mem": "5000",
+            "runtime": "12:00:00",
+            "thread": 1,
+            "host_name": "della",
+            "host_thread_limit": 20,
+            "min_mat_size": 1,
+            "max_mat_size": 500
+        },
+        {
+            "script_name": "test_medium.sh",
+            "type": "slurm",
+            "mem": "10000",
+            "runtime": "2-00:00:00",
+            "thread": 5,
+            "host_name": "della",
+            "host_thread_limit": 20,
+            "min_mat_size": 500,
+            "max_mat_size": 2000
+        },
+        {
+            "script_name": "test_long.sh",
+            "type": "slurm",
+            "mem": "25000",
+            "runtime": "4-00:00:00",
+            "thread": 10,
+            "host_name": "della",
+            "host_thread_limit": 20,
+            "min_mat_size": 2000,
+            "max_mat_size": 6000
+        },
+        {
+            "script_name": "test_vlong.sh",
+            "type": "slurm",
+            "mem": "50000",
+            "runtime": "6-00:00:00",
+            "thread": 15,
+            "host_name": "della",
+            "host_thread_limit": 20,
+            "min_mat_size": 4000,
+            "max_mat_size": 10000
+        },
+        {
+            "script_name": "test_vvlong.sh",
+            "type": "slurm",
+            "mem": "100000",
+            "runtime": "6-00:00:00",
+            "thread": 20,
+            "host_name": "della",
+            "host_thread_limit": 20,
+            "min_mat_size": 10000,
+            "max_mat_size": 100000
+        }
+    ],
+    "kernclust_config": {
+        "script_name": "kernclust.sh",
+        "type": "slurm",
+        "mem": "10000",
+        "runtime": "12:00:00",
+        "thread": 1,
+        "host_name": "della",
+        "host_thread_limit": 20
+    },
+    "eval_config": {
+        "script_name": "eval.sh",
+        "type": "slurm",
+        "mem": "10000",
+        "runtime": "12:00:00",
+        "thread": 1,
+        "host_name": "della",
+        "host_thread_limit": 20
+    }
+}

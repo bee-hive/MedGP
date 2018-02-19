@@ -1,0 +1,12 @@
+{
+    "feature_list": [
+    	{
+    		"name": "INR",
+    		"index": 18
+    		},
+    	{
+    		"name": "PT",
+    		"index": 19
+    		}
+    ]
+}

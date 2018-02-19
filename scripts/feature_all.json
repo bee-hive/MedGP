@@ -1,0 +1,100 @@
+{
+    "feature_list": [
+    	{
+    		"name": "RR",
+    		"index": 0
+    		},
+    	{
+    		"name": "HR",
+    		"index": 1
+    		},
+    	{
+    		"name": "SBP",
+    		"index": 3
+    		},
+    	{
+    		"name": "Temp",
+    		"index": 4
+    		},
+    	{
+    		"name": "BUN",
+    		"index": 6
+    		},
+    	{
+    		"name": "CO2",
+    		"index": 7
+    		},
+    	{
+    		"name": "Calcium",
+    		"index": 8
+    		},
+    	{
+    		"name": "Chloride",
+    		"index": 9
+    		},
+    	{
+    		"name": "Creatinine",
+    		"index": 10
+    		},
+    	{
+    		"name": "Glucose",
+    		"index": 12
+    		},
+    	{
+    		"name": "Hct",
+    		"index": 13
+    		},
+    	{
+    		"name": "Hgb",
+    		"index": 14
+    		},
+    	{
+    		"name": "MCH",
+    		"index": 15
+    		},
+    	{
+    		"name": "MCHC",
+    		"index": 16
+    		},
+    	{
+    		"name": "MCV",
+    		"index": 17
+    		},
+    	{
+    		"name": "INR",
+    		"index": 18
+    		},
+    	{
+    		"name": "PT",
+    		"index": 19
+    		},
+    	{
+    		"name": "PTT",
+    		"index": 20
+    		},
+    	{
+    		"name": "Platelet",
+    		"index": 21
+    		},
+    	{
+    		"name": "Potassium",
+    		"index": 22
+    		},
+    	{
+    		"name": "RBC",
+    		"index": 23
+    		},
+    	{
+    		"name": "RDW",
+    		"index": 24
+    		},
+    	{
+    		"name": "Sodium",
+    		"index": 25
+    		},
+    	{
+    		"name": "WBC",
+    		"index": 26
+    		}
+    ]
+}

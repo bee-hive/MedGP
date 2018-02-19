@@ -1,0 +1,8 @@
+{
+    "medgpc_path": "/home/lifangc/workspace/release/MedGP/",
+    "train_exec": "main_one_train.o",
+    "test_exec": "main_one_test.o",
+    "exp_root_path": "/tigress/lifangc/mimic/experiment/",
+    "data_root_path": "/tigress/lifangc/mimic/cohort/",
+    "cohort_id_list": "cohort_hadm_match.txt"
+}

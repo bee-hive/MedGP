@@ -1,0 +1,21 @@
+{
+    "flag_use_sum_obj": 0,
+    "random_init_num": 1000,
+    "random_seed": 718,
+    "top_iteration_num": 1000,
+    "iteration_num_per_update": 30,
+    "online_learn_rate": 0.00001,
+    "online_momentum": 0.9,
+    "lower_bound_noise": 0.15,
+    "upper_bound_noise": 0.4,
+    "lower_bound_a": -1.5,
+    "upper_bound_a": 1.5,
+    "lower_bound_period": 12,
+    "upper_bound_period": 72,
+    "lower_bound_lengthscale": 6,
+    "upper_bound_lengthscale": 72,
+    "lower_bound_lambda": 0.1,
+    "upper_bound_lambda": 0.5,
+    "lower_bound_scale": 0.1,
+    "upper_bound_scale": 1.5
+}
